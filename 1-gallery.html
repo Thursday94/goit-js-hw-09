@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<ul lang="en">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- БЕЗ src/, мы уже внутри src -->
+  <script type="module" crossorigin src="/goit-js-hw-09/1-gallery.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/vendor-CgTBfC_f.js">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/vendor-DkczhqSJ.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-cT4sRM6W.css">
 </head>
 
-<header class="header">
-    <div class="container">
-        <a class="back-link" href="/index.html">Go back</a>
-        <h1 class="main-title">
-            Gallery Page
-        </h1>
-    </div>
-</header>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="back-link" href="./index.html">Go back</a>
+            <h1 class="main-title">Gallery Page</h1>
+        </div>
+    </header>
 
-<ul class="gallery"></ul>
+    <ul class="gallery"></ul>
 
-<script type="module" src="./js/1-gallery.js"></script>
-
+    <!-- JS тоже без src/ -->
 </body>
+
 </html>
